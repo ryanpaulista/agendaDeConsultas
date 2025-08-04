@@ -4,7 +4,7 @@ CREATE TABLE Pessoa (
     nome VARCHAR(150) NOT NULL UNIQUE,
     dt_nasc DATE NOT NULL,
     endereco VARCHAR(300) NOT NULL,
-    telefone VARCHAR(15) NOT NULL 
+    telefone VARCHAR(15) NOT NULL,
 );
 
 CREATE TABLE Paciente (
